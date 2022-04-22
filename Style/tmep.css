@@ -51,159 +51,82 @@ header nav a{
     color:black;
     font-size:1.1rem;
     font-family: sans-serif;
-    margin-left:2rem;}
-
-#headimg{
-    border-radius: 70%;
-    height:30px;
-    margin-right: 5px;
+    margin-left:2rem;
 }
-
-#icon{
-    border-right: 1px solid rgba(0,0,0,.1);
+main{
+    /* padding:2rem 4rem ;  */
 }
-
-#home{
-    display: flex;
-    flex-wrap:wrap;
-    gap: 1.5rem;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2rem 5%;}
-
-#home #content h3{
-    font-size: 2.8rem;
-    font-family: sans-serif;
-    margin-top:50px;
-}
-
-#home #content p{
-    font-family: -webkit-pictograph;
-    font-size:17px;
-    color: #666;}
-
-#content{
-    height:500px;
-    width:380px;}
-
-#btnH{
-    display: inline-block;
-    margin-top: 1rem;
-    color:white;
-    padding: 0.4rem 0.8rem;
-    border-radius: 0.5rem;
-    background:black;
-    font-size: 1rem;
-    text-decoration:none;
-    font-family: system-ui;}
-
-#btnH:hover{
-    background:linear-gradient(90deg, #ff5959, #6363ff);}
-
-#homeicon{
-    display: flex;
-}
-
-#home2{
-    display: flex;
-    background-color:#ffbf23;
-    height: auto;
-    justify-content: space-between;
-    padding:5rem 7rem;
-}
-#home2 div{
-    width: 45%;
-}
-
-#home2 #first{
-    font-size: 2.5rem;
-}
-#home2 #sec{
-    font-size: 1.1rem;
-}
-#home3{
-    height: auto;
-    padding:5rem 10rem;
-}
-
-#home3 #nn{
-    width: 40%;
-}
-
-#home3 #wwo{
-    display: flex;
-    justify-content:space-between;
-}
-#wwo div img{
-    border-radius: 5px;
-    border: 3px solid black;
-    height:300px;
-}
-#home3 #wwo div{
-    width: 250px;
-}
-#home3 #wwo div p{
-    font-size:1.5rem;
-}
-
-#bocbc{
+#head{
     display:flex;
+    justify-content: space-between;
+    padding:0.5rem 4rem ;
+}
+#head p{
+    font-size:2rem;
+}
+#content {
+    margin-top: 30px;
+}
+#content input{ 
+    border: none;
+    border-bottom: 2px solid #3c3c3c;
+    width:300px;
+    font-size:1.2rem;
+}
+#head2{
+    display:flex;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
     justify-content:space-between;
-
+    padding:0rem 4rem ;
 }
-#bocbc img{
-    height: 550px;
-}
-#bocbc div{
-    width:45%;
-    margin-top: 180px;
+#head2 nav{
+    display:flex;
+    gap:3rem;
 }
 
-#home4{
-    padding:3rem 10rem;
-    background-color: #ffd7ef;
+section{
+  background-color: whitesmoke;  
+  padding:2rem 4rem ;
 }
-#home4 img{
-    width:100%;
+#mpwt{
+    /* margin-top:50px; */
+    font-size:1.2rem;
+    font-weight: 700;
 }
-
-#pricing{
+#templates{
     display:flex;
     flex-wrap: wrap;
-    padding:5rem 15rem;
-    background-color:whitesmoke;
+    gap:1rem;
     justify-content:space-between;
 }
-#pricing div{
-    width:40%;
+#templates div img{
+    width:410px;
+    box-shadow: 5px 5px 10px #d1d1d1;;
 }
-#pricing div h2{
-    margin-top: 120px;
+#hmc{
+    padding:5rem;
+    background-color: rgb(3, 89, 70);
+    text-align: center;
 }
-#pricing button{
-    background-color:black;
+#hmc p{
     color:white;
-    padding:0.3rem 1.1rem;
-    border-radius: 8px;
+    margin:2rem;
+}
+#hmc button{
+    color:rgb(3, 89, 70);
+    background-color: white;
+    padding:1rem 2rem;
+    border-radius:5rem;
+    font-size:1.2rem;
+}
+#hmc button:hover{
+    background-color:rgb(240, 255, 252);
+}
+#hmc #h{
+    font-size:3rem
 }
 
-#pricing img{
-    width:350px
-}
-#getstarted button{
-    background-color:black;
-    color:white;
-    padding:0.3rem 1.1rem;
-    border-radius: 8px;
-}
-
-#getstarted{
-    padding:7rem 10rem;
-    text-align:center;
-}
-#getstarted img{
-    width: 600px;
-}
 
 
 #footer{
@@ -211,7 +134,7 @@ header nav a{
     display:flex;
     gap:1rem;
     justify-content: space-around;
-    background-color:#ffbf23;
+    background-color:#ffffff;
     border-radius: 10px;
 }
 
